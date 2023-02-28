@@ -37,31 +37,31 @@ Recommendations:
 
 <p align="center">
     <a href="https://github.com/makklays/zvtest/blob/main/public/screens/1.png" target="_blank">
-        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/1.png" width="800">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/1.png" width="800" />
     </a>
 </p>
 
 <p align="center">
     <a href="https://github.com/makklays/zvtest/blob/main/public/screens/2.png" target="_blank">
-        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/2.png" width="800">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/2.png" width="800" />
     </a>
 </p>
 
 <p align="center">
     <a href="https://github.com/makklays/zvtest/blob/main/public/screens/3.png" target="_blank">
-        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/3.png" width="800">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/3.png" width="800" />
     </a>
 </p>
 
 <p align="center">
     <a href="https://github.com/makklays/zvtest/blob/main/public/screens/4.png" target="_blank">
-        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/4.png" width="800">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/4.png" width="800" />
     </a>
 </p>
 
 <p align="center">
     <a href="https://github.com/makklays/zvtest/blob/main/public/screens/5.png" target="_blank">
-        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/5.png" width="400">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/5.png" width="800" />
     </a>
 </p>
 
