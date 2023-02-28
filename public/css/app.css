@@ -1,0 +1,210 @@
+
+a.navbar-brand {
+    padding-top: 20px;
+}
+.navbar-main .navbar-nav .nav-link.mob-phone-number {
+    font-size: 32px;
+    color: #c21030;
+    margin-right: 64px;
+}
+.navbar-main .navbar-nav .nav-link.phone-number {
+    font-size: 22px;
+    color: #c21030;
+}
+.margin-logo-right {
+    margin-left: 30px;
+    margin-right: 57px;
+}
+
+.navbar-toggler{
+    width: 48px;
+    height: 34px;
+    /*background-color: #7eb444;*/
+    border:none;
+}
+.navbar-toggler .line1 {
+    width: 48px;
+    float: left;
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+.navbar-toggler .line2 {
+    width: 39px;
+    float: left;
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+.navbar-toggler .line3 {
+    width: 32px;
+    float: left;
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+main.rankings .div-rank {
+    height:95px; 
+    display:flex; 
+    align-items:center; 
+    flex-wrap:wrap; 
+    border-radius:15px; 
+    color: #373643;
+    margin-bottom: 17px;
+}
+main.rankings .div-rank.my-top-position {
+    background: linear-gradient(90deg,#e0112b,#cc2264 80%);
+    color: #FFF;
+}
+
+main.rankings .div-rank .div-line {
+    flex-basis:0; 
+    flex-grow:1; 
+}
+main.rankings .div-rank .div-number {
+    max-width:12%; 
+    font-size:28px; 
+    text-align:center;
+}
+main.rankings .div-rank .div-title {
+    max-width:68%; 
+    font-size:28px; 
+    text-align:left; 
+    line-height:28px;
+}
+main.rankings .div-rank .div-subtitle {
+    max-width:68%; 
+    font-size:21px; 
+    text-align:left;
+    line-height:28px;
+}
+main.rankings .div-rank .div-score {
+    max-width: 20%; 
+    font-size: 32px; 
+    text-align: right; 
+    padding-right: 15px;
+}
+h1.rank-h1 {
+    color: #1a191f; 
+    font-size: 80px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+h2.rank-h2 {
+    font-size: 54px;
+    margin-bottom: 28px;
+}
+h3.rank-sub-h3 {
+    color: #cc2264; 
+    margin-bottom: 38px;
+    letter-spacing: 0px;
+}
+
+.margin-container {
+    margin-top:26px;
+}
+.margin-row {
+    margin-top: 30px;
+}
+.city-dark {
+    color: #FFF; 
+    font-size: 32px; 
+    margin: 32px 0 28px 30px;
+}
+
+.sel-font-size {
+    font-size: 26px;
+    padding: 10px 0 10px 26px;
+    height: 64px;
+    font-weight: bold;
+    border: 2px solid #9f9f9f;
+    color: #9f9f9f;
+    border-radius: 16px;
+    /*font-family: inherit;*/
+    font-family: system-ui;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
+}
+
+select.sel-font-size:focus,
+select.sel-font-size:hover {
+   outline: none;
+}
+
+select.sel-font-size option {
+    color: #373643; 
+    background: #f2f2f0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a.footer-link {
+    color: #8c8c8c;
+    display: block;
+    font-family: futura-pt,sofia-pro,sans-serif;
+    font-size: 28px;
+    margin: 0 0 14px;
+    text-decoration: none;
+}
+a.footer-link:hover {
+    color: #FFF;
+}
+
+.margin-bl {
+    margin-bottom: 40px;
+}
+
+footer .brand-logo-white {
+    width: 168px;
+    margin-bottom: 36px;
+}
+.footer-copy {
+    margin-top: 6px;
+}
+.text-copy {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 522px) {
+    .margin-logo-right {
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .navbar-main .navbar-nav .nav-link.mob-phone-number {
+        font-size: 20px;
+        color: #c21030;
+        margin-right: 0;
+    }
+
+    h1.rank-h1 {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+    h2.rank-h2 {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    main.rankings .div-rank .div-number {
+        font-size: 22px; 
+    }
+    main.rankings .div-rank .div-title {
+        font-size: 22px; 
+    }
+    main.rankings .div-rank .div-subtitle {
+        font-size: 18px; 
+    }
+    main.rankings .div-rank .div-score {
+        font-size: 24px; 
+        padding-right: 20px;
+    }
+}
