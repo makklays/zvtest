@@ -7,58 +7,65 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## La tarea de prueba 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>
+Create a GitHub repository to host the next page (it is attached to the email)
+</p>
+<p>
+Requirements
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+1. Use Laravel 9</li>
+2. Use javascript or JQuery
+3. The page should load a json from a local folder (attached to the email) and process it
+to show the top players and groups by city (or global) ordered by score. It should be
+loaded and processed by the page controller.
+We have this working in our page https://virtualzone.es/rankings.
+4. On change city or experience, the page should not reload. It should read the json by
+ajax and reuse the same process when the page loads.
+5. Use .less or .sass for styling
+</p>
+<p>
+Recommendations:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+● Try to use pixel perfect to make the layout as close as possible to the demo.
 
-## Learning Laravel
+● You have a working page in our site, so you can try to reuse some css to save time
+</p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Las pantallas de página 'Rankings'
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center">
+    <a href="https://github.com/makklays/zvtest/blob/main/public/screens/1.png" target="_blank">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/1.png" width="800">
+    </a>
+</p>
 
-## Laravel Sponsors
+<p align="center">
+    <a href="https://github.com/makklays/zvtest/blob/main/public/screens/2.png" target="_blank">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/2.png" width="800">
+    </a>
+</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p align="center">
+    <a href="https://github.com/makklays/zvtest/blob/main/public/screens/3.png" target="_blank">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/3.png" width="800">
+    </a>
+</p>
 
-### Premium Partners
+<p align="center">
+    <a href="https://github.com/makklays/zvtest/blob/main/public/screens/4.png" target="_blank">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/4.png" width="800">
+    </a>
+</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<p align="center">
+    <a href="https://github.com/makklays/zvtest/blob/main/public/screens/5.png" target="_blank">
+        <img src="https://github.com/makklays/zvtest/blob/main/public/screens/5.png" width="400">
+    </a>
+</p>
 
-## Contributing
+## La fecha 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+28 de febrero de 2023 
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
