@@ -2,7 +2,7 @@
 /**
  * author: Alexander Kuziv
  * e-mail: hola.kuziv@gmail.com
- *  fecha: 26-02-2023 
+ *  fecha: 28-02-2023 
  */
 
 use Illuminate\Support\Facades\Route;
@@ -22,6 +22,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// 
+// páginas
 Route::get('rankings', [App\Http\Controllers\RankingController::class, 'rankings'])->name('rankings');
 

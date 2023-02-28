@@ -103,7 +103,7 @@
     <!-- Css -->
     <link href="/css/app_site.css" rel="stylesheet">
     <link href="/css/rankings.css" rel="stylesheet">
-    <link href="/css/app.css?id=<?=time()?>" rel="stylesheet">
+    <link href="/css/app.css?id=<?=time()?>" rel="stylesheet" >
     
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://virtualzone.es/images/favicon/apple-touch-icon.png">

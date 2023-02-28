@@ -1,5 +1,10 @@
+/**
+ * author: Alexander Kuziv
+ * e-mail: hola.kuziv@gmail.com
+ *  fecha: 28-02-2023 
+ */
 
-a.navbar-brand {
+ a.navbar-brand {
     padding-top: 20px;
 }
 .navbar-main .navbar-nav .nav-link.mob-phone-number {
@@ -19,7 +24,6 @@ a.navbar-brand {
 .navbar-toggler{
     width: 48px;
     height: 34px;
-    /*background-color: #7eb444;*/
     border:none;
 }
 .navbar-toggler .line1 {
@@ -122,7 +126,6 @@ h3.rank-sub-h3 {
     border: 2px solid #9f9f9f;
     color: #9f9f9f;
     border-radius: 16px;
-    /*font-family: inherit;*/
     font-family: system-ui;
 
     -webkit-appearance: none;
@@ -208,3 +211,4 @@ footer .brand-logo-white {
         padding-right: 20px;
     }
 }
+

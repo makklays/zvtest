@@ -33,7 +33,7 @@
                     <option value="global" selected >Global cities</option>
                     <option value="Alicante" >Alicante</option>
                     <option value="Madrid" >Madrid</option>
-                    <option value="Valencia" >Valencia</option>
+                    <option value="Valencia">Valencia</option>
                 </select>
             </div>
         </div>
